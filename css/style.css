@@ -1,0 +1,100 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.text-black {
+	color: #0a0a0a;
+}
+
+.text-success .bg-success {
+	color: #139139;
+}
+
+.bg-white {
+	background-color: white;
+	color: black;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*home section*/
+#home-section {
+	background: url(../img/background-layer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 690px;
+	margin-top: 50px;
+}
+
+#home-section .bg-img-properties {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	min-height: 700px;
+}
+
+#home-section .home-inner {
+	font-size: large;
+	letter-spacing: 1px;
+	padding-top: 320px;
+	color: #fff;
+}
+
+@media (max-width: 991.5px) {
+	#home-section .home-inner {
+		padding-top: 280px;
+	}
+}
+
+@media (max-width: 400.5px) {
+	#home-section .home-inner {
+		padding-top: 240px;
+	}
+}
+
+.font-sizing {
+	font-size: 17px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+/*about section*/
+.heading-bold {
+	font-weight: 900;
+}
+
+.about-card-text {
+	font-size: 15px;
+}
+
+/*awards section*/
+.py-more {
+	padding: 150px 0;
+}
+
+.award-card-text {
+	font-size: 12px;
+}
+
+/*contact section*/
+.contact-icon {
+	color: rgb(71, 71, 71);
+	border-radius: 50%;
+	font-size: 20px;
+	padding-right: 15px;
+}
+
+/*footer section*/
+.fab,
+.footer-icon {
+	color: #fff;
+	font-size: 25px;
+}
